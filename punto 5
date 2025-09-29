@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double numero1, numero2, division;
+    cout << "ingrese un numero"<< endl;
+    cin >> numero1;
+    cout << "ingrese el divisor deseado" << endl;
+    cin >> numero2;
+    if (numero2 == 0){
+        cout << "La división es indeterminada";
+    } else{
+        division = numero1/numero2;
+        cout << "el resultado de la division es: "<< division << endl;
+    }
+    return 0;
+}
