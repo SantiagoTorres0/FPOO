@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "ingrese su cedula"<<endl;
+    string cedula;
+    cin >> cedula;
+    cout << "su cedula es " << cedula << endl;
+    return 0;
+}
