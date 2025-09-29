@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main() {
+    bool i=true;
+    string letra, numero, cifrada;
+    int controlI;
+    while(i==true){
+        cout << "ingrese la letra de su palabra" << endl;
+        cin >> letra;
+        if ( letra <="n"){
+            numero="0";
+            cifrada = cifrada + numero;
+        } else if (letra >= "m"){
+            numero="1";
+            cifrada = cifrada + numero;
+        }
+        cout << "¿Desea ingresar otra letra? 1- si, 2- no" << endl;
+        cin >> controlI;
+        if (controlI==1){
+            i=true;
+        } else if (controlI==2){
+            i=false;
+        } else{
+            cout<< "error, caracter no admitido cerrando programa" << endl;
+            return 0;
+        }
+
+    }
+    cout << "la palabra cifrada es " << cifrada << endl;
+
+    return 0;
+}
