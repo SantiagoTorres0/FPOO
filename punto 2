@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "ingrese un numero"<<endl;
+    int numero1, numero2;
+    cin >> numero1;
+    cout << "ingrese el segundo numero " << endl;
+    cin >> numero2;
+    double suma=numero1+numero2;
+    cout << "la suma de los dos numeros es: " << suma << endl;
+    return 0;
+}
