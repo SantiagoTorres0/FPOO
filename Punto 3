@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    cout << "este programa calcula la raiz de un numero negativo o positivo" << endl;
+    double numero, raiz;
+    cout << "ingrese un numero negativo o positivo: ";
+    cin >> numero;
+    if (numero < 0) {
+        cout << "la raiz cuadrada de " << numero << " es √" << numero << "i" << endl;
+    } else {
+        raiz = sqrt(numero);
+        cout << "la raiz de "<< numero <<" es "<< raiz << endl;
+    }
+    return 0;
+}
